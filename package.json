@@ -1,0 +1,8 @@
+{
+  "name": "arrow-functions-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EduardoSantosGit/arrow-functions-examples.git",
+  "author": "EduardoSantosGit <eduardosantos058@gmail.com>",
+  "license": "MIT"
+}
