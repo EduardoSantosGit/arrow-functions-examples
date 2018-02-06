@@ -16,4 +16,8 @@ export default class Functions {
         })
     }
 
+    handleClick = () => {
+        console.log("funciona")
+    }
+
 }
