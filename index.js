@@ -1,9 +1,7 @@
 import Functions from './Functions'
 
-let c = new Functions();
-
-let b = c.handleClick()
+let f = new Functions().iterateArray()
 
 export {
-    b   
+   f   
 }

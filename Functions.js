@@ -16,8 +16,17 @@ export default class Functions {
         })
     }
 
-    handleClick = () => {
-        console.log("funciona")
+    printMessage = () => {
+        console.log("text example")
     }
 
+    iterateArray = () => {
+        let arr = ['Germany','Angola','Australia','Brazil']
+        
+        arr.map((x) => {
+            console.log(x)
+        });
+
+        return arr
+    }
 }
