@@ -1,6 +1,6 @@
 import dns from 'dns'
 
-export default class Functions {
+export default class FunctionsBasic {
 
     arrowPromise(){
         return new Promise((resolve, reject) => {
@@ -35,4 +35,9 @@ export default class Functions {
     callOtherFunction = () => this.otherFunction();
 
     otherFunction = () => console.log("call success");
+
+    ternaryOperator = (term) => (term === null || term === undefined) ? "empty" : term
+
+    unaryOperator = (x, y) => x = x << y;
+
 }

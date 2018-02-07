@@ -1,7 +1,5 @@
-import Functions from './Functions'
-
-let f = new Functions().callOtherFunction()
+import FunctionsBasic from './FunctionsBasic'
 
 export {
-   f   
+      
 }
