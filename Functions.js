@@ -29,4 +29,10 @@ export default class Functions {
 
         return arr
     }
+
+    paramsExecute = (a, b) =>  a * b; 
+
+    callOtherFunction = () => this.otherFunction();
+
+    otherFunction = () => console.log("call success");
 }
